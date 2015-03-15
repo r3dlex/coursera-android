@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nome_do_app">HelloAndroid</string>
+    <string name="string_ola">Hello World, HelloAndroid!</string>
+</resources>
