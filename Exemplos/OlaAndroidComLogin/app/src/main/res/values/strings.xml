@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OlaAndroidComLogin</string>
+    <string name="username_string">Usuario</string>
+    <string name="password_string">Senha</string>
+    <string name="enter_username_hint">Entrar usuario</string>
+    <string name="enter_password_hint">Entrar senha</string>
+    <string name="login_string">Login</string>
+    <string name="hello">Olá, Android!</string>
+
+</resources>
