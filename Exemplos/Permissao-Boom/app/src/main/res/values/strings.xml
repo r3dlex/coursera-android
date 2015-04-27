@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="string_nome_app">PermissaoExemploBoom</string>
+    <string name="string_boom">BOOM!</string>
+    <string name="string_perm_boom">Faz BOOM. Aplicativos maliciosos podem fazer Boom!</string>
+    <string name="string_boom_descricao">Permissão Boom</string>
+
+</resources>

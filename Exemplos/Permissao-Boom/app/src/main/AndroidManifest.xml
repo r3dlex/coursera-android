@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="curso.exemplos.exemplodepermissao.boom"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="20" />
+
+    <!-- Define uma permissão única -->
+    <permission
+        android:name="curso.exemplos.exemplodepermissao.BOOM_PERM"
+        android:description="@string/string_perm_boom"
+        android:label="@string/string_boom_descricao" >
+    </permission>
+
+    <!-- Faz o uso da permissão Boom na aplicação  -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/string_nome_app"
+        android:permission="course.examples.permissionexample.BOOM_PERM" >
+        <activity
+            android:name="curso.exemplos.exemplodepermissao.boom.BoomActivity"
+            android:label="@string/string_nome_app" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+            <!--  Define um filtro para a operação perigosa Boom, definido pela string de acao
+            "....acao_boom"  -->
+            <intent-filter>
+                <action android:name="curso.exemplos.exemplodepermissao.boom.acao_boom" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
