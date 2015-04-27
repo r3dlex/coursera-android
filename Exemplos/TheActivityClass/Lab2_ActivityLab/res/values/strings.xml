@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Acivities</string>
+    <string name="onCreate">onCreate() : 0</string>
+    <string name="onStart">onStart() : 0</string>
+    <string name="onResume">onResume() : 0</string>
+    <string name="onRestart">onRestart() : 0</string>
+    <string name="button">Segunda Activity</string>
+    <string name="title_activity_activity_two">Segunda Activity</string>
+    <string name="close">Fechar</string>
+	
+</resources>
