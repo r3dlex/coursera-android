@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/andre/Workspace/Github/coursera-android/Exemplos/FragmentoVCit/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="Citacoes">
+        <item>A sorte está lançada! (Alae jacta est!)</item>
+        <item>Foi curto. Tal como o amor das mulheres.</item>
+        <item>Existe uma teoria que diz que, se um dia alguém descobrir exatamente para que serve o Universo e por que ele está aqui, ele desaparecerá instantaneamente e será substituído por algo ainda mais estranho e inexplicável. Existe uma segunda teoria que diz que isso já aconteceu.</item>
+    </string-array>
+    <string-array name="Titulos">
+        <item>Júlio Cesar</item>
+        <item>Hamlet</item>
+        <item>Guia dos Mochileiros das Galáxias</item>
+    </string-array>
+    <string name="app_name">Fragmento: Visualizador de Citações</string>
+</resources>
